@@ -23,4 +23,4 @@ https://cloud.mongodb.com/v2/6686b3c54ae8a2667d84a5fa#/security/database/users
 
 
 
-
+Not reduct -> zazustant

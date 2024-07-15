@@ -1,13 +1,9 @@
-import React from 'react';
-import CollectionForm from '@/components/collections/collectionForm';
+import CollectionForm from "@/components/collections/collectionForm"
 
-const page = () => {
+const CreateCollection = () => {
   return (
-    <div>
-      Create collectio
-      <CollectionForm />
-    </div>
-  );
+    <CollectionForm />
+  )
 }
 
-export default page;
+export default CreateCollection

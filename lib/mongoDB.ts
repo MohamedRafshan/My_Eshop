@@ -18,6 +18,6 @@ export const connectToDB = async (): Promise<void> => {
     isConnected = true;
     console.log("MongoDB is connected");
   } catch (err) {
-    console.log(err)
+    console.log("Failed to connect to MongoDB",err)
   }
 }

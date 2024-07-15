@@ -91,7 +91,7 @@ const TopBar = () => {
       <div className="relative flex gap-4 items-center">
         <Menu
           className="cursor-pointer md:hidden"
-          onClick={() => setDropdownMenu(!dropdownMenu)}
+          onClick={() => setDropdownMenu(!dropdownMenu) }
         />
         {dropdownMenu && (
           <div className="absolute top-10 right-6 flex flex-col gap-8 p-5 bg-white shadow-xl rounded-lg">

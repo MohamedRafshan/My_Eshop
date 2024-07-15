@@ -19,8 +19,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "../ui/textarea";
 import ImageUpload from "../custom ui/ImageUpload";
 import { useState } from "react";
-// import toast from "react-hot-toast";
-// import Delete from "../custom ui/Delete";
+import toast from "react-hot-toast";
+import Delete from "../custom ui/Delete";
 
 const formSchema = z.object({
   title: z.string().min(2).max(20),
